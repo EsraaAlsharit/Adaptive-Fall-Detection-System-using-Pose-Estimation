@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783237660862",
+    "firebase_url": "https://civil-hope-294519.firebaseio.com",
+    "project_id": "civil-hope-294519",
+    "storage_bucket": "civil-hope-294519.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783237660862:android:fa652c05a35c8e67ec1eef",
+        "android_client_info": {
+          "package_name": "com.mosaza.falldetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783237660862-b3kjqlfjtdi8h1amts4hl8ep06t28kic.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mosaza.falldetectionapp",
+            "certificate_hash": "4f037f40f7311cfb0f32b344b0c4df1638d1022c"
+          }
+        },
+        {
+          "client_id": "783237660862-lojpoqgig4m764ekhp1nc49jlhn64sdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-K_BCPkpxie-XLA363Yu_LPmQOHLrYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783237660862-lojpoqgig4m764ekhp1nc49jlhn64sdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

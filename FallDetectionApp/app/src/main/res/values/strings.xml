@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Fall Detection App</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Username..</string>
+    <string name="first_name">First Name</string>
+    <string name="first_name_hint">First Name..</string>
+    <string name="last_name">Last Name</string>
+    <string name="last_name_hint">Last Name..</string>
+    <string name="id">ID</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Email..</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Password..</string>
+    <string name="phone">Phone</string>
+    <string name="phone_hint">Phone..</string>
+    <string name="server_ip">Server IP Address</string>
+    <string name="server_ip_hint">Server IP Address..</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="live_stream">Live Stream</string>
+    <string name="profile">Profile</string>
+    <string name="fall_history">Fall History</string>
+    <string name="call_ambulance">Call Ambulance</string>
+    <string name="logout">Logout</string>
+    <string name="back">Back</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="update_location">Update Location</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="fall_detected_at">Fall Detected At:</string>
+</resources>

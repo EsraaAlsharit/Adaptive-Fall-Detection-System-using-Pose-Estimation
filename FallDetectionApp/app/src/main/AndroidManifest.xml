@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mosaza.falldetectionapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/fall_help"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fall_help"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.FallHistoryActivity" />
+        <activity android:name=".Activities.ProfileActivity" />
+        <activity android:name=".Activities.LiveStreamActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity
+            android:name=".Activities.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.SignUpActivity" />
+        <activity android:name=".Activities.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <service
+            android:name=".Other.CustomFirebaseMessagingService"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".Other.MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>
