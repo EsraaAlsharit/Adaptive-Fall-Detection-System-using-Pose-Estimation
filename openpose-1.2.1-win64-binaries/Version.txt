@@ -1,0 +1,2 @@
+﻿OpenPose version 1.2.1, from:
+- https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.2.1
